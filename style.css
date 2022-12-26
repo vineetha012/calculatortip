@@ -1,0 +1,120 @@
+body{
+    display: flex;    
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+main{
+    background-color: rgb(187, 218, 218);
+    height: 500px;
+    margin: auto;
+    width: 80%;
+    /* height: 80%;
+    width: 80%; */
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.left-container{
+    width: 50%;
+
+    padding: 20px;
+}
+
+.bilcontainer{
+    width: 100%;
+    height: 100px;
+}
+#bill{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.btnslabcontainer{
+    width: 100%;
+
+    padding-top: 30px;
+
+}
+.btncontainer{
+    margin-top: 20px;
+}
+.btncontainer button,.btncontainer input{
+    width: 85px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.btncontainer button{
+    background-color: rgb(23, 148, 25);
+}
+.btncontainer button:hover{
+    background-color: rgb(119, 220, 120);
+}
+.btncontainer input{
+    width:90px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left:10px ;
+}
+.numberpplecontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.numberpplecontainer label{
+    margin-top: 10px;
+}
+.NumberOfppl{
+    width: 90%;
+    height: 30px;
+
+}
+.right-container{
+    background-color: rgb(70, 104, 70);
+    width: 50%;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.tipcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.totalcontainer{
+    height: 100px; 
+}
+.totalcontainer{
+    display: flex;
+    flex-direction: row;
+}
+.label{
+    width: 50%;
+}
+.values{
+    width: 50%;
+    padding-top: 25px;
+
+}
+.values div{
+    float: right;
+    color: rgb(77, 173, 141);
+    font-size:xx-large;
+}
+#reset{
+    margin-top: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(107, 163, 144);
+}
+#reset:hover{
+    background-color: rgb(77, 173, 141);
+}
