@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>calculator</h1>
+    <main>
+        <div class="left-container">
+            <div class="bilcontainer">
+                <label >Bill</label><br/>
+                <input type="number" id="bill" min="0" placeholder="$" />
+            </div>
+            <div class="btnslabcontainer">
+                <label >Select Tip %</label>
+                <div class="btncontainer">
+                    <button class="tipbtn" value=5>5%</button>
+                    <button class="tipbtn" value=10>10%</button>
+                    <button class="tipbtn" value=15>15%</button>
+                    <br />
+                    <button class="tipbtn" value=25>25%</button>
+                    <button class="tipbtn" value=50>50%</button>
+                    <input class="customtipbtn" type="number" placeholder="$ CUSTOM" min="0" />
+                </div>
+            </div>
+            <div class="numberpplecontainer">
+                <label>number of people</label><br/>
+                <input type="number" class="NumberOfppl" min="1" />
+            </div>
+        </div>
+        <div class="right-container" style="display: flex;flex-direction: column;">
+            <div class="tipcontainer">
+                <div class="label">
+                    <h2>Tip Amount</h2>
+                    <div>/person</div>
+                </div>
+                <div class="values">
+                    <div id="tipamountfinal">0</div>
+                </div>
+            </div>
+            <div class="totalcontainer">
+                <div class="label">
+                    <h2>Total</h2>
+                    <div>/person</div>
+                </div>
+                <div class="values">
+                    <div id="Total">0</div>
+                </div>
+            </div>
+            <button id="reset">RESET</button>
+        </div>
+    </main>
+</body>
+<script src="index.js"></script>
+
+</html>
